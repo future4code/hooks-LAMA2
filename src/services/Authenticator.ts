@@ -1,4 +1,5 @@
 import * as jwt from "jsonwebtoken";
+import { AuthenticationData } from "../model/User";
 
 export class Authenticator {
   public generateToken(input: AuthenticationData,
@@ -10,7 +11,7 @@ export class Authenticator {
       },
       process.env.JWT_KEY as string,
       {
-        expiresIn,
+        expiresIn: '1h',
       }
     );
     return token;
@@ -26,7 +27,3 @@ export class Authenticator {
   }
 }
 
-interface AuthenticationData {
-  id: string;
-  role?: string;
-}

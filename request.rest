@@ -1,0 +1,20 @@
+POST http://localhost:3003/band/create
+Content-Type: application/json
+
+
+POST http://localhost:3003/user/signup 
+Content-Type: application/json
+{
+    "name": "Giulia",
+    "email": "giulia@mail.com",
+    "password": "giu123",
+    "role": "normal"
+}
+
+POST http://localhost:3003/user/login 
+Content-Type: application/json
+{
+    "email": "giulia@mail.com",
+    "password": "giu123"
+}
+
