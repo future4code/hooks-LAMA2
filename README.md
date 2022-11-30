@@ -1,4 +1,42 @@
-# Labenu Music Awards
-Como você deve saber muito bem, o nosso querido chefinho Astrodev é uma pessoa com Networking incrível e ele conhece vários artistas estrelados. Além disso, ele também é um grande ~~megalomaníaco~~ visionário e está planejando fazer um grande evento: o **LAMA**, *Labenu Musical Awards*, um festival  com várias bandas famosas para a formatura da sua turma e, no final, vocês podem eleger a banda que mais gostaram! Entretanto, na opinião dele, vocês só serão merecedores se entregarem um sistema impecável que permita o gerenciamento completo desses shows.
+#  🎶Projeto LAMA🎶 
 
-Para isso já deixamos algumas tabelas prontas para vocês não precisarem se preocupar com a modelagem do banco. Deixamos também um template do projeto já com a estrutura da parte de usuários. Vocês podem usá-las a vontade, mas, se quiser fazer do zero sem esse auxílio, também pode.
+Sistema de gerenciamento para festivais de música. 
+
+
+## Funcionalidades
+
+- Cadastro
+- Login
+- Registro de bandas
+- Visualização de detalhes sobre a banda
+- Adicionar um show a um dia
+- Pegar todos os shows de uma data
+
+
+## Autores
+
+- [Giovanna Galhardo Julio](https://github.com/giojulio)
+- [Giulia Verruck Tortola ](https://github.com/giuliaverruck)
+
+## Documentação
+
+[Documentação](https://app.zeplin.io/project/5dd5ae92669af1bc8179)
+[API](https://documenter.getpostman.com/view/7549981/SWTEdGtT#3203689e-ea05-46a-8ebc6c5f271e)
+
+## Rodando o projeto
+
+ - Clonar o repositório
+
+- Rodar npm install
+
+- Criar um arquivo .env na pasta raiz do projeto:
+
+- Documentação no arquivo request.rest
+```
+  PORT = 3003
+  DB_HOST = 
+  DB_USER = 
+  DB_PASSWORD = 
+  DB_DATABASE = 
+```
+- Rodar npm start para ligar o servidor
